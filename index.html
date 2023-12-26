@@ -1,36 +1,205 @@
 <!DOCTYPE html>
-<html lang="EN">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Spa Sampitoo</title>
+<html lang="en">
 
-        <!--Meta-Tags for search engines-->
-        <meta name="description" content="Spa Sampito, Wonderful spa to relax ,unwind, and rejuvenate based in Sweden.">
-        <meta name="keywords" content="spa, relax, sauna, pool, sweden, stress">
-        <meta name="author" content="Spa Sampitoo">
-        <link rel="shortcut icon" href="water.png" type="image/x-icon">
-        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spa Sampitoo</title>
+    <!--Meta-Tags for search engines-->
+    <meta name="description" content="Spa Sampitoo, Wonderful spa to relax ,unwind, and rejuvenate based in Swede.">
+    <meta name="keywords" content="spa, relax, sauna, pool, sweden, stress">
+    <meta name="author" content="Spa Sampitoo">
+    <link rel="shortcut icon" href="wave.png" type="image/x-icon">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
 
-    <body>
-        <main>
-            <a href="index.html">
-                <h1 id="logo">Spa Sampito</h1>
-            </a>
-            
-            <nav>
-                <ul id="menu">
-                    <li><a href="index.html" class="active" aria-label="This is the main home page">Home</a></li>
-                    <li><a href="signup.html" aria-label="Fill in your information to sign up to the spa">Sign up</a></li>
+<body>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Spa Sampitoo</h1>
+        </a>
+
+        <!--Navigation -->
+        <input type="checkbox" name="nav-toggle" id="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html" class="active" aria-label="This is the main home page">Home</a></li>
+                <li><a href="signup.html" aria-label="Fill in your information to sign up to the spa">Sign up</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Main -->
+
+    <main>
+        <!-- Concept as paragraph -->
+        <p id="firstparagraph"> Importance of spas extends beyond mere relaxation and indulgence. They play a
+            significant role in promoting physical
+            health, mental well-being, and community engagement while contributing to the local economy. Many people
+            view spa
+            experiences as essential for maintaining a balanced and healthy lifestyle in today's fast-paced world. </p>
+
+
+
+        <div id="offer">
+            <h2>We Offer:</h2>
+        </div>
+        <div id="offer">
+            <ul>
+                <li>Sauna Serenity</li>
+                <li>Yoga for Inner Harmony</li>
+                <li>Poolside Paradise</li>
+                <li>Gym for Peaceful Solo Gains</li>
+            </ul>
+        </div>
+
+
+
+        <div id="images">
+            <div><img src="assets/images/sauna.jpg" alt="dry sauna" height="100%" width="100%"></div>
+            <div><img src="assets/images/yoga.jpg" alt="Yoga studio" height="100%" width="100%"> </div>
+        </div>
+        <div id="images">
+            <div> <img src="assets/images/lockers.jpg" alt="lockers" height="150" width="200"></div>
+            <div> <img src="assets/images/gym.jpg" alt="Gymstudio" height="150" width="200"></div>
+        </div>
+        <div id="images">
+            <div> <img src="assets/images/pool.jpg" alt="pool" height="150" width="200"></div>
+            <div> <img src="assets/images/meditiationrum.jpg" alt="Meditation" height="150" width="200"></div>
+        </div>
+
+        </div>
+
+
+
+        <!-- Membership Alternative -->
+        <div id="images">
+            <div>
+                <h3>Exclusive Club</h3>
+                <ul>
+                    <li>Book unlimted yoga classes</li>
+                    <li> Fresh towels during check ins</li>
+                    <li> Body and Hair product</li>
+                    <li> Mentor on spot for meditiation </li>
+                    <li>Locker</li>
                 </ul>
-            </nav>
-        </main>
-        
-        <footer>
+            </div>
 
-        </footer>
+            <div>
+                <h3>Morning Club</h3>
 
-    </body>
+                <ul>
+                    <li>Book 3per/week yoga classes only morning</li>
+                    <li> Fresh towels during check ins</li>
+                    <li> Body and Hair product</li>
+                    <li>Locker</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="images">
+            <div>
+                <h3>Evening Club</h3>
+
+                <ul>
+                    <li>Book 3per/week yoga classes only evening</li>
+                    <li>Fresh towels during check ins</li>
+                    <li> Body and Hair product</li>
+                    <li>Locker</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Day Pass</h3>
+
+                <ul>
+                    <li>Book yoga class as Dropin or gym training</li>
+                    <li> Fresh towels during check ins</li>
+                    <li> Body and Hair product</li>
+                    <li>Locker</li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+    <br>
+
+    <div id="thirdpart">
+
+        <!-- opening hours-->
+        <section>
+            <h3>Opening hours</h3>
+            <table>
+                <th></th>
+                <th>Open</th>
+                <th> Close</th>
+                <tr>
+                    <td>Monday to Friday :</td>
+                    <td> 6:00</td>
+                    <td> 22:00</td>
+                </tr>
+                <tr>
+                    <td>Weekends :</td>
+                    <td> 10:00</td>
+                    <td> 20:00</td>
+                </tr>
+            </table>
+        </section>
+
+        <br>
+
+        <!--Contact-->
+        <h3 id="contact">Contact</h3>
+        <span style="font-weight: bold;">Phone: </span>
+        <span> 012 345 678 910</span>
+        <br>
+        <span style="font-weight: bold;">Email:</span>
+        <span>contactsampitoo@gmail.com</span>
+        </section>
+
+        <!---Location--->
+        <section id="findus" class="text-center">
+            <h3>Find us here</h3>
+            <p> Sampito Spa
+                <br>
+                1239 Happy-Street
+                <br>
+                Stockholm, Sweden
+            </p>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62165.10656138052!2d18.009835518960735!3d59.35627564384704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssv!2sse!4v1696080605356!5m2!1ssv!2sse"
+                width="30%" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+</body>
+</div>
+
+<footer>
+    <ul id="social-networks">
+        <li> <a href=https://www.facebook.com/ target="_blank" rel="no opener"
+                aria-label="visit our Facebook page (Opens in a new page)" class="icon icon-instagram"><i
+                    class="fa-brands fa-square-facebook"></i></a></li>
+        <li> <a href=https://www.instagram.com/ target="_blank" rel="no opener"
+                aria-label="visit our instagram page (Opens in a new page)" class="icon icon-instagram"><i
+                    class="fa-brands fa-square-instagram"></i></a></li>
+        <li> <a href=https://twitter.com/ target="_blank" rel="no opener"
+                aria-label="visit our Twitter page (Opens in a new page)" class="icon icon-twitter"><i
+                    class="fa-brands fa-square-x-twitter"></i></a></li>
+        <li> <a href=https://www.snapchat.com/ target="_blank" rel="no opener"
+                aria-label="visit our Snapchat page (Opens in a new page)" class="icon icon-snapchat"><i
+                    class="fa-brands fa-square-snapchat"></i></a></li>
+    </ul>
+</footer>
+
+<!-- Font Awesome kit -->
+<script src="https://kit.fontawesome.com/124d261d8e.js" crossorigin="anonymous"></script>
+
+</body>
+
 </html>
