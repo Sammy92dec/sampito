@@ -1,35 +1,80 @@
 <!DOCTYPE html>
-<html lang="EN">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spa Sampitoo</title>
     <!--Meta-Tags for search engines-->
-    <meta name="description" content="Sign up to Spa Sampitoo, Wonderful spa to relax ,unwind, and rejuvenate based in Swede.">
-    <meta name="keywords" content="spa, relax, sauna, pool, sweden, stress, signup">
+    <meta name="description" content="Spa Sampitoo, Wonderful spa to relax ,unwind, and rejuvenate based in Swede.">
+    <meta name="keywords" content="spa, relax, sauna, pool, sweden, stress, spa-pictures, join-spa, register, signup">
     <meta name="author" content="Spa Sampitoo">
-    <link rel="shortcut icon" href="water.png" type="image/x-icon">
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="wave.png" type="image/x-icon">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
     <!--Header-->
     <header>
         <a href="/workspaces/spa-sampitoo/signup.html">
             <h1 id="logo"><img src="assets/images/wave1.png"> Signup</h1>
         </a>
-    
+
         <!--Navigation -->
         <input type="checkbox" name="nav-toggle" id="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
                 <li><a href="index.html" aria-label="Home page">Home</a></li>
-                <li><a href="signup.html" class="active" aria-label="Fill in your information to sign up to the spa">Sign
-                        up</a></li>
+                <li><a href="signup.html" class="active"
+                        aria-label="Fill in your information to sign up to the spa">Sign up</a></li>
             </ul>
         </nav>
+    </header>
 
-        <h1>hello world</h1>
+
+
+    <main id="signupbackground">
+        <fieldset>
+
+            <legend>Information</legend>
+            <form action="https://formdump.codeinstitute.net" method="POST" id="content"></form>
+            <br>
+            <div>
+                <label for="name-field" required class="block-label">Name :- </label>
+                <input id="name-field" type="text" placeholder="Your name" required>
+            </div>
+            <br>
+            <div>
+                <label for="email-field" required class="block-label">Email :- </label>
+                <input id="email-field" type="email" placeholder="Your email" required>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Join" class="block-label">
+            </div>
+        </fieldset>
+    </main>
+    <footer>
+        <ul id="social-networks">
+            <li> <a href=https://www.facebook.com/ target="_blank" rel="no opener"
+                    aria-label="visit our Facebook page (Opens in a new page)" class="icon icon-instagram"><i
+                        class="fa-brands fa-square-facebook"></i></a></li>
+            <li> <a href=https://www.instagram.com/ target="_blank" rel="no opener"
+                    aria-label="visit our instagram page (Opens in a new page)" class="icon icon-instagram"><i
+                        class="fa-brands fa-square-instagram"></i></a></li>
+            <li> <a href=https://twitter.com/ target="_blank" rel="no opener"
+                    aria-label="visit our Twitter page (Opens in a new page)" class="icon icon-twitter"><i
+                        class="fa-brands fa-square-x-twitter"></i></a></li>
+            <li> <a href=https://www.snapchat.com/ target="_blank" rel="no opener"
+                    aria-label="visit our Snapchat page (Opens in a new page)" class="icon icon-snapchat"><i
+                        class="fa-brands fa-square-snapchat"></i></a></li>
+        </ul>
+    </footer>
+
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/124d261d8e.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
