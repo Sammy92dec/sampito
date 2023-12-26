@@ -1,0 +1,179 @@
+/* Google Font*/
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Lora&display=swap");
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Set body font family and size */
+body {
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    /* generic project styles */
+    color: black;
+    font-family: "Lora", serif;
+}
+
+main {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Image Alignment*/
+#images {
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 10px;
+    margin: 40px 30px;
+}
+
+#firstparagraph {
+    text-align: center;
+    margin: 20px;
+    padding-top: initial;
+}
+
+#offer {
+    text-align: justify;
+    margin: 20px;
+}
+
+/*header*/
+h1 {
+    text-decoration: underline;
+    font-family: "Cinzel Decorative", serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/*added nav header change */
+/* Nav bar styles with dropdown toggle*/
+
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav drop down*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/* Main*/
+
+main {
+    /* for main to take space n push footer down */
+    flex: 1 0 auto;
+    margin-top: 47px;
+}
+
+/* Footer*/
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/* Media query: tabletsand larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /*main*/
+    main {
+        /* push main content down to accommodate larger header */
+        margin-top: 79px;
+    }
+}
+
+/* larger devices: (laptops and desktops, 992px and up) */
+
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
