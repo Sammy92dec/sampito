@@ -41,6 +41,16 @@ img {
     object-fit: cover;
 }
 
+h3 {
+    text-decoration: underline;
+    text-decoration-line: 2px;
+}
+
+
+ul {
+    background-color: burlywood;
+}
+
 
 #firstparagraph {
     text-align: center;
