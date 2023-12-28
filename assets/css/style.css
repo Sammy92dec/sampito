@@ -27,12 +27,20 @@ main {
 
 /*Image Alignment*/
 #images {
-    justify-content: space-evenly;
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-gap: 10px;
-    margin: 40px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    flex-wrap: wrap;
 }
+
+img {
+    flex: 1 200px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
 
 #firstparagraph {
     text-align: center;
@@ -49,7 +57,6 @@ main {
 h1 {
     text-decoration: underline;
     font-family: "Cinzel Decorative", serif;
-    text-transform: uppercase;
     letter-spacing: 2px;
 }
 
