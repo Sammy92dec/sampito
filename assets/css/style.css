@@ -114,11 +114,12 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-    top: 100%;
+    top: 100;
 }
 
 /* Nav drop down*/
 #nav-toggle:checked~nav {
+
     display: block;
 }
 
@@ -148,8 +149,6 @@ main {
     list-style-type: none;
     background-color: #a37150;
 }
-
-
 
 
 #social-networks i {
