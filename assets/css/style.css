@@ -177,6 +177,8 @@ footer {
     min-height: 100vh;
     flex-direction: column;
     justify-content: flex-start;
+    margin-bottom: 300px;
+    padding-bottom: 0em;
 }
 
 /* Media query: tabletsand larger (768px and up) */

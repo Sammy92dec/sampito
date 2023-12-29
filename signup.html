@@ -40,29 +40,30 @@
 
 
     <main>
-        <fieldset id="signupbackground">
+        
+    <fieldset style="margin-bottom: 300px;">
 
-            <legend>Information</legend>
-            <form action="https://formdump.codeinstitute.net" method="POST" id="content"></form>
-            <br>
-            <div>
-                <label for="name-field" required class="block-label">Name :- </label>
-                <input id="name-field" type="text" placeholder="Your name" required >
-            </div>
-            <br>
-            <div>
-                <label for="email-field" required class="block-label">Email :- </label>
-                <input id="email-field" type="email" placeholder="Your email" required >
-            </div>
-            <br>
-            <div>
-                <input type="submit" value="Join" class="block-label">
-            </div>
-        </fieldset>
+     <legend id="bold">Information</legend>
+     <form action="https://formdump.codeinstitute.net" method="POST" id="content">
+         <div>
+            <label for="name-field" required class="block-label" id="bold">Name*</label>
+            <input id="name-field" type="text" placeholder="Your name" required>
+         </div>
+
+         <div>
+            <label for="email-field" required class="block-label" id="bold">Email*</label>
+            <input id="email-field" type="email" placeholder="Your email" required>
+         </div>
+
+         <input type="submit" value="Join" class="block-label">
+
+     </form>
+
+    </fieldset>
     </main>
 
     
-    <footer id="signup">
+    <footer>
         <ul id="social-networks">
             <li> <a href=https://www.facebook.com/ target="_blank" rel="no opener"
                     aria-label="visit our Facebook page (Opens in a new page)" class="icon icon-instagram"><i
