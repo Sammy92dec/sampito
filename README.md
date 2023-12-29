@@ -133,20 +133,21 @@ Testing was completed on multiple devices for resposiveness.All links and possib
 | Homepage Content | Displays relevant information on the homepage. | N/A | Homepage shows latest content and updates. |
 | Signup Form | Includes Signup form for user to join. | 1. Fill out user information. | Submission successful, user gets a Thank You page and redirect. |
 | Responsive Design | Ensures the website works well on all devices. | N/A | Website layout adjusts to different screen sizes. |
-| Navigation Menu | Provides easy navigation through the site. | 1. Click to signup | Smooth navigation, correct pages are loaded. |
+| Navigation Menu | Provides easy navigation through the site. | 1. Click to signup 2.Click to membership section | Smooth navigation, correct pages are loaded. |
 | Social Media Integration | Connects the website with social media platforms. | 1. Share a page on social media. | Page is shared with the correct link and image. |
 
 
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - Got errors on duplicated tags which i still need. [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
   
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - Found one error a style not being read."text-decoration-line: 2px;" which i only had to remove to fix [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
   
 - Lighthouse
-  
+  - Inspected the page by using Dev-tools.
+  [Lighthouse results](assets/images/lighthouse.png)
 
 ## Deployments
 
