@@ -92,7 +92,7 @@ The website is comprised of 3 pages which are extended from a base template.
 
 - The Signup will help the user to register with the spa and be able to choose which membership they are interested with.The user will be asked to submit their full name and email address.
 
-![Sign Up](PICTURE OF SIGNUP PAGE)
+![Sign Up](assets/images/signup.png)
 
 ### Features Left to Implement
 
