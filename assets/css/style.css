@@ -45,6 +45,14 @@ h3 {
     
 }
 
+#bottom {
+        min-height: 100vh;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 200px;
+        width: 500px;
+}
+
 ol {
     background-color: #c1a894;
 }
