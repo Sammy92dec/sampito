@@ -15,6 +15,7 @@ body {
     /* generic project styles */
     color: black;
     font-family: "Lora", serif;
+    background-color: #D0bcac;
 }
 
 main {
@@ -44,9 +45,8 @@ h3 {
     text-decoration-line: 2px;
 }
 
-
 ol {
-    background-color: burlywood;
+    background-color: #c1a894;
 }
 
 #offer {
@@ -60,7 +60,10 @@ ol {
     margin-bottom: 20px;
 }
 
-
+#thirdpart {
+    text-align: center;
+    background-color: #c1a894;
+}
 
 /*header*/
 h1 {
@@ -71,7 +74,7 @@ h1 {
 
 
 header {
-    background-color: #ffffff;
+    background-color: #8c6042;
     padding: 0 1rem;
     z-index: 99;
     width: 100%;
@@ -105,7 +108,7 @@ header a {
 
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #8c6042;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -143,12 +146,26 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    background-color: #a37150;
 }
+
+
+
 
 #social-networks i {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #a37150;
+    padding: 1em;
+    text-align: center;
 }
 
 /* Media query: tabletsand larger (768px and up) */
