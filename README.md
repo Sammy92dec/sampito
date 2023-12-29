@@ -1,4 +1,4 @@
-#  <img src="assets/images/wave.png"/> Spa Sampitoo 
+# <img src="/workspaces/sampito/wave.png"/> Spa Sampito
 
 Spa Sampito is a site designed to highlight how important to immerse yourself in a world of relaxation and rejuvenating experiences. The site will give you a glimpse into our unwinding services to a path of holistic wellness. Tailored for your serenity, our website aims to be the go-to destination for those seeking blissful escapes.
 
@@ -6,7 +6,7 @@ Spa Sampito is a site designed to highlight how important to immerse yourself in
 
 ## CONTENTS
 
-- [ Spa Sampitoo](#-spa-sampitoo)
+- [ Spa Sampito](#-spa-sampito)
   - [CONTENTS](#contents)
 - [UX](#ux)
   - [User Stories](#user-stories)
