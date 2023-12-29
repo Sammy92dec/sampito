@@ -18,6 +18,7 @@ body {
     background-color: #D0bcac;
 }
 
+/* main styling */
 main {
     width: 60%;
     margin-left: 100px;
@@ -33,6 +34,7 @@ main {
     flex-wrap: wrap;
 }
 
+
 img {
     flex: 1 200px;
     width: 200px;
@@ -40,9 +42,10 @@ img {
     object-fit: cover;
 }
 
+/* text styling */
+
 h3 {
     text-decoration: underline;
-    
 }
 
 
@@ -169,8 +172,8 @@ footer {
     text-align: center;
 }
 
-#signup { 
-    
+#signup {
+
     min-height: 100vh;
     flex-direction: column;
     justify-content: flex-start;
