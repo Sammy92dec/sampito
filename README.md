@@ -120,7 +120,7 @@ Testing was completed on multiple devices for resposiveness.All links and possib
 | Homepage Content | Displays relevant information on the homepage. | N/A | Homepage shows latest content and updates. |
 | Signup Form | Includes Signup form for user to join. | 1. Fill out user information. | Submission successful, user gets a Thank You page and redirect. |
 | Responsive Design | Ensures the website works well on all devices. | N/A | Website layout adjusts to different screen sizes. |
-| Navigation Menu | Provides easy navigation through the site. | 1. Click to signup 2.Click to membership section | Smooth navigation, correct pages are loaded. |
+| Navigation Menu | Provides easy navigation through the site. | 1. Click to signup and Click to membership section | Smooth navigation, correct pages are loaded. |
 | Social Media Integration | Connects the website with social media platforms. | 1. Share a page on social media. | Page is shared with the correct link and image. |
 
 
@@ -134,7 +134,8 @@ Testing was completed on multiple devices for resposiveness.All links and possib
   
 - Lighthouse
   - Inspected the page by using Dev-tools.
-  [Lighthouse results](assets/images/lighthouse.png)
+  ![Lighthouse](assets/images/lighthouse.png)
+  
 
 ## Deployments
 
