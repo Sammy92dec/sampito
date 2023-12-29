@@ -1,4 +1,4 @@
-# <img src="assets/images/wave1.png"/> Spa Sampito
+# Spa Sampito
 
 Spa Sampito is a site designed to highlight how important to immerse yourself in a world of relaxation and rejuvenating experiences. The site will give you a glimpse into our unwinding services to a path of holistic wellness. Tailored for your serenity, our website aims to be the go-to destination for those seeking blissful escapes.
 
@@ -10,7 +10,7 @@ The live link - <https://sammy92dec.github.io/sampito/>
 
 ## CONTENTS
 
-- [ Spa Sampito](#-spa-sampito)
+- [Spa Sampito](#spa-sampito)
   - [CONTENTS](#contents)
 - [UX](#ux)
   - [User Stories](#user-stories)
@@ -67,38 +67,39 @@ The main color used is Khaki #C1A894 giving the whole background a warm color.Da
 The website is comprised of 3 pages which are extended from a base template.
 
 * Home page
+* Membership page (Only in Homepage)
 * Signup page
-* Membership page
+
 
 ## Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all two pages, the full responsive navigation bar includes links to the Logo, Home page and  Sign Up page and is identical in each page to allow for easy navigation.
+  - Featured on all two pages, the full responsive navigation bar includes links to the Home page , Membership section and  Sign Up page  to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Nav Bar](PICTURES OF THE Nav bar)
+![Nav Bar](assets/images/nav.png)
 
 - __The landing page image__
 
   - The landing includes a text to what the spa offers and as well as a glimpse of the facility by adding pictures. 
   - This section introduces the user Spa Sampito with an eye catching limited picture to grab their attention and to wanting more.
 
-![Landing Page](PICTURES )
+![Landing Page](assets/images/offer.png)
 
 - __Membership section__
 
-  - This section will allow the user to see the membership that we offer and whats included with each membership.
+  - This section will allow the user to see the membership that we offer and whats included with each membership.And most important the prices.
   - This section will be updated whenever there is a change with the offers to keep the user up to date.
 
-![Memberships](PICTURES OF THE MEMBERSHIP)
+![Memberships](assets/images/alt.png)
 
 - __The Footer__
 
   - The footer section includes links to the relevant social media sites for Spa Sampitoo. The links will open to a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](PICTURE OF FOOTER)
+![Footer](assets/images/footimg.png)
 
 - __The Sign Up Page__
 
@@ -119,6 +120,7 @@ Also made use of:
 - Font Awesome
 - Google Fonts
 - HTML Validator
+- HTML Beautifier
 - CSS Validator
   
 
