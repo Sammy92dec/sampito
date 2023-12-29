@@ -36,7 +36,7 @@ The live link - <https://sammy92dec.github.io/sampito/>
 - Easy to navigate between pages
 - Soothing colors to reflect the feeling of calmness.
 - To easily signup to the facility
-- 
+  
 
 ### Target Audience
 
