@@ -2,7 +2,11 @@
 
 Spa Sampito is a site designed to highlight how important to immerse yourself in a world of relaxation and rejuvenating experiences. The site will give you a glimpse into our unwinding services to a path of holistic wellness. Tailored for your serenity, our website aims to be the go-to destination for those seeking blissful escapes.
 
-![Responsice Mockup](TOP MAIN SCREENSHOT)
+![Main website](assets/images/top.png)
+
+The live link - <https://sammy92dec.github.io/sampito/>
+
+
 
 ## CONTENTS
 
