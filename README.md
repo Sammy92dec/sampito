@@ -12,14 +12,9 @@ The live link - <https://sammy92dec.github.io/sampito/>
 
 - [Spa Sampito](#spa-sampito)
   - [CONTENTS](#contents)
-- [UX](#ux)
-  - [User Stories](#user-stories)
+  - [User Experience](#user-experience)
     - [Target Audience](#target-audience)
-  - [Strategy](#strategy)
-  - [Scope](#scope)
-  - [Structure](#structure)
-  - [Skeleton](#skeleton)
-  - [Surface](#surface)
+  - [Design](#design)
 - [Features](#features)
   - [Existing Features](#existing-features)
     - [Features Left to Implement](#features-left-to-implement)
@@ -34,28 +29,20 @@ The live link - <https://sammy92dec.github.io/sampito/>
     - [Media](#media)
     - [Acknowledgments](#acknowledgments)
 
-# UX
-## User Stories
+
+## User Experience
 
 - To show what the Spa offer for services.
 - Easy to navigate between pages
 - Soothing colors to reflect the feeling of calmness.
 - To easily signup to the facility
--
+- 
 
 ### Target Audience
 
 - Working class,Whoever is in need of a break and to have a healthier routine mindfully or physically.Day visits is also avaliable
 
-## Strategy
-
-## Scope
-
-## Structure
-
-## Skeleton
-
-## Surface
+## Design
 
 Most of the website color is created using HEX.
 The main color used is Khaki #C1A894 giving the whole background a warm color.Darker colors on the header and the footer for more earthy effect #8C6042 and #A37150. The purpose was to have a calmness feeling through the website which will help to reflect how it will actually be in the spa.I used "https://coolors.co/3a3a3a-8c6042-a37150-c1a894-a7bbec" to generate my color palette.
@@ -120,7 +107,7 @@ Also made use of:
 - Font Awesome
 - Google Fonts
 - HTML Validator
-- HTML Beautifier
+- HTML Beautifier [Beautifier] (https://codebeautify.org/htmlviewer#)
 - CSS Validator
   
 
