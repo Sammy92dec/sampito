@@ -96,7 +96,8 @@ The website is comprised of 3 pages which are extended from a base template.
 
 ### Features Left to Implement
 
-- To setup a gallery page to include real clients images and experiences at Spa Sampitoo.
+- To setup a gallery page to include real clients images and experiences at Spa Sampito.
+- Add videos.
 
 # Technologies Used
 
@@ -127,11 +128,9 @@ Testing was completed on multiple devices for resposiveness.All links and possib
 ### Validator Testing
 
 - HTML
-  - Got errors on duplicated tags which i still need. [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-  
+  - Got errors on duplicated tags which i still need. [W3C validator](https://validator.w3.org/)
 - CSS
-  - Found one error a style not being read."text-decoration-line: 2px;" which i only had to remove to fix [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-  
+  - Found one error a style not being read."text-decoration-line: 2px;" which i only had to remove to fix [(Jigsaw) validator](https://validator.w3.org/)
 - Lighthouse
   - Inspected the page by using Dev-tools.
   ![Lighthouse](assets/images/lighthouse.png)

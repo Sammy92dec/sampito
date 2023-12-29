@@ -45,13 +45,6 @@ h3 {
     
 }
 
-#bottom {
-        min-height: 100vh;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 200px;
-        width: 500px;
-}
 
 ol {
     background-color: #c1a894;
@@ -110,6 +103,7 @@ header a {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 
 /*added nav header change */
 /* Nav bar styles with dropdown toggle*/
@@ -173,6 +167,13 @@ footer {
     background-color: #a37150;
     padding: 1em;
     text-align: center;
+}
+
+#signup { 
+    
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 /* Media query: tabletsand larger (768px and up) */
