@@ -12,8 +12,6 @@
 /* Set body font family and size */
 body {
     min-height: 100px;
-    display: flex;
-    flex-direction: column;
     /* generic project styles */
     color: black;
     font-family: "Lora", serif;
@@ -21,8 +19,8 @@ body {
 
 main {
     width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 /*Image Alignment*/
@@ -51,17 +49,18 @@ ul {
     background-color: burlywood;
 }
 
-
-#firstparagraph {
-    text-align: center;
-    margin: 20px;
-    padding-top: initial;
-}
-
 #offer {
     text-align: justify;
     margin: 20px;
 }
+
+#firstparagraph {
+    text-align: center;
+    
+    padding-top: initial;
+}
+
+
 
 /*header*/
 h1 {
@@ -69,6 +68,7 @@ h1 {
     font-family: "Cinzel Decorative", serif;
     letter-spacing: 2px;
 }
+
 
 header {
     background-color: #ffffff;
