@@ -22,7 +22,7 @@ Spa Sampito is a site designed to highlight how important to immerse yourself in
 - [Technologies Used](#technologies-used)
   - [Testing](#testing)
     - [Validator Testing](#validator-testing)
-    - [Deployment](#deployment)
+  - [Deployments](#deployments)
     - [How to Fork](#how-to-fork)
   - [Credits](#credits)
     - [Code Used](#code-used)
@@ -135,7 +135,7 @@ Testing was completed on multiple devices for resposiveness.All links and possib
   
 - Lighthouse
   
-### Deployment
+## Deployments
 
 This section is the process to go through to deploy the project to a hosting platform (e.g. GitHub)
 
