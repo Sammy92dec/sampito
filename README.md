@@ -146,7 +146,7 @@ This section is the process to go through to deploy the project to a hosting pla
   - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment or manually refresh the page.
   - You will be able to confirm the website is deployed at the top part of pages.Like the image below.
   
-  ![Screenshot Deployed](workspaces/spa-sampitoo/assets/images/deployed.png)
+  ![Screenshot Deployed](assets/images/deployed.png)
 
 The live link - <https://sammy92dec.github.io/sampito/>
 
@@ -155,11 +155,8 @@ The live link - <https://sammy92dec.github.io/sampito/>
 Steps to fork Sampito project :-
 
 * Go to Github.com,navigate to the Sammy92dec/sampito repository.
-
->- In the top-right corner of the page,Click fork.
-
->- ![Screenshot Fork](assets/images/fork.png)
->
+* In the top-right corner of the page,Click fork.
+* ![Screenshot Fork](assets/images/fork.png)
 * Under "Owner," select the dropdown menu and click an owner for the forked repository.
 * By default, forks are named the same as their upstream repositories. Optionally, to further distinguish your fork, in the "Repository name" field, type a name.
 * Optionally, in the "Description" field, type a description of your fork.
