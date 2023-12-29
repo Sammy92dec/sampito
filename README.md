@@ -125,6 +125,7 @@ Testing was completed on multiple devices for resposiveness.All links and possib
 | Navigation Menu | Provides easy navigation through the site. | 1. Click to signup | Smooth navigation, correct pages are loaded. |
 | Social Media Integration | Connects the website with social media platforms. | 1. Share a page on social media. | Page is shared with the correct link and image. |
 
+
 ### Validator Testing
 
 - HTML
@@ -135,6 +136,7 @@ Testing was completed on multiple devices for resposiveness.All links and possib
   
 - Lighthouse
   
+
 ## Deployments
 
 This section is the process to go through to deploy the project to a hosting platform (e.g. GitHub)
@@ -150,18 +152,21 @@ This section is the process to go through to deploy the project to a hosting pla
 
 The live link - <https://sammy92dec.github.io/sampito/>
 
+
 ### How to Fork
 
 Steps to fork Sampito project :-
 
 * Go to Github.com,navigate to the Sammy92dec/sampito repository.
 * In the top-right corner of the page,Click fork.
-* ![Screenshot Fork](assets/images/fork.png)
+ ![Screenshot Fork](assets/images/fork.png)
 * Under "Owner," select the dropdown menu and click an owner for the forked repository.
 * By default, forks are named the same as their upstream repositories. Optionally, to further distinguish your fork, in the "Repository name" field, type a name.
 * Optionally, in the "Description" field, type a description of your fork.
 * Optionally, select Copy the DEFAULT branch only.
 * Click Create fork.
+
+
 
 ## Credits
 
